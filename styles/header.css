@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative; /**/
+    position: relative;
 }
 
 .container {
@@ -36,10 +36,16 @@
     padding: 1rem;
 }
 
+.lista-menu__logo__link {
+    text-decoration: none;
+    color: var(--preto);
+}
+
 .lista-menu {
     display: none;
     position: absolute; 
     top: 100%;
+    z-index: 2;
 }
 
 .container__botao {
